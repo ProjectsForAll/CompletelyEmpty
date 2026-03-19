@@ -2,10 +2,9 @@ name: '${name}'
 version: '${version}'
 main: '${main}'
 
+load: STARTUP
+
 authors:
   - Drak
 
 folia-supported: true
-
-depend:
-  - BukkitOfUtils
