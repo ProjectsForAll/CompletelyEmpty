@@ -121,3 +121,5 @@ run/
 
 /target/
 /.fastRequest/
+/CLAUDE.md
+/.claude/

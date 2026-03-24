@@ -4,16 +4,12 @@ ext {
     SHADOW = [
     ]
     ANNO = [
-            'com.github.Streamline-Essentials:BukkitOfUtils:master-SNAPSHOT',
-            'dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT',
     ]
     COMP_ONLY = [
-            'com.github.Streamline-Essentials:BukkitOfUtils:master-SNAPSHOT',
-            'dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT',
+            'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT',
     ]
     FILES = [
     ]
     OTHER_PLUGINS = [
-            'me.clip:placeholderapi:2.11.6',
     ]
 }

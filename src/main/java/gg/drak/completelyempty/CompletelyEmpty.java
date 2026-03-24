@@ -5,16 +5,11 @@ import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.jspecify.annotations.Nullable;
 
 @Getter @Setter
 public final class CompletelyEmpty extends JavaPlugin {
     @Getter @Setter
     private static CompletelyEmpty instance;
-
-    public CompletelyEmpty() {
-        super();
-    }
 
     @Override
     public void onEnable() {
@@ -27,7 +22,7 @@ public final class CompletelyEmpty extends JavaPlugin {
     }
 
     @Override
-    public ChunkGenerator getDefaultWorldGenerator(String worldName, @Nullable String id) {
+    public ChunkGenerator getDefaultWorldGenerator(String worldName, String id) {
         return new EmptyGenerator();
     }
 }
